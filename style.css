@@ -1,7 +1,8 @@
 html, body {
   background: #F8F8FF;
   color: #000000;
-  font-family: "Segoe UI";
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -15,13 +16,12 @@ html, body {
   font-size: 55px;
   padding-top: 80px;
   font-weight: bold;
-  color: #008B8B;
 }
 
 .category {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 230px;
 }
 
 .bottomsection {
@@ -56,11 +56,11 @@ a:link {
 }
 
 a.top {
-  color: #008B8B;
+  color: #000000;
 }
 
 a.top:hover {
-  color: #008B8B;
+  color: #000000;
   border-bottom: none;
 }
 
@@ -73,5 +73,13 @@ a:hover {
 hr {
   border: 3px solid #000000;
   border-radius: 5px;
-  max-width: 30em;
+  max-width: 40em;
 }
+
+upper {
+  color: #008B8B;
+  animation: blink 3.5s linear infinite;
+  }
+  @keyframes blink {  
+  25% { opacity: 0; } 
+  50% { opacity: 100; }  }
