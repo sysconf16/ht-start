@@ -1,4 +1,4 @@
-# HTstart
+# HTˢᵗᵃʳᵗ
 A simple start page for home theatre computers promoting free services.
 
 Not designed to work on mobile.
