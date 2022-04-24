@@ -77,6 +77,8 @@ hr {
 
 upper {
   color: #008B8B;
+  vertical-align: super;
+  font-size: 30px;
   animation: blink 3.5s linear infinite;
   }
   @keyframes blink {  
