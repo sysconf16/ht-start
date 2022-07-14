@@ -5,6 +5,8 @@ html, body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 	height: 100%;
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 .topsection {
 	display: flex;
