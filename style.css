@@ -45,9 +45,10 @@ html, body {
 	padding-bottom: 20px;
 }
 .title {
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
-	color: #2c418a;
+	color: #405aa7;
+	font-family: "cageroll";
 }
 li {
 	font-size: 20px;
