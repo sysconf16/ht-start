@@ -8,10 +8,12 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
 @font-face {
     font-family: "cageroll";
     src: url('./cageroll.otf');
 }
+
 .topsection {
 	display: flex;
 	flex-direction: column;
@@ -21,6 +23,7 @@ html, body {
 	font-weight: bold;
 	font-family: "cageroll";
 }
+
 .subsection {
 	display: flex;
 	flex-direction: column;
@@ -28,15 +31,19 @@ html, body {
 	font-size: 25px;
 	font-weight: bold;
 }
+
 .category {
 	display: flex;
 	flex-direction: column;
 	width: 325px;
 }
+
 .bottomsection {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap; /* Ensures responsiveness */
 }
+
 .links {
 	display: flex;
 	flex-direction: column;
@@ -44,50 +51,61 @@ html, body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .title {
 	font-size: 35px;
 	font-weight: bold;
 	color: #405aa7;
 	font-family: "cageroll";
 }
+
 li {
 	font-size: 20px;
 	list-style-type: none;
-	padding: 5px
+	padding: 5px;
 }
+
 a:link {
 	text-decoration: none;
 	color: #DCDCDC;
 	border-radius: 5px;
 }
+
 a.top {
 	color: #DCDCDC;
 }
+
 a.top:hover {
 	color: #545761;
 	border-bottom: none;
 }
+
 a.top:visited { 
 	color: #DCDCDC;
-  }
+}
+
 a:hover {
 	color: #545761;
 	border-bottom: 2px solid #DCDCDC;
 }
+
 a:visited { 
 	color: #DCDCDC;
-  }
+}
+
 hr {
 	border: 3px solid;
 	border-radius: 5px;
 	max-width: 85em;
 }
-upper {
+
+.upper {
 	color: #aec1e9;
 	vertical-align: super;
 	font-size: 30px;
 	animation: blink 3.5s linear infinite;
 }
+
 @keyframes blink {
 	25% {
 		opacity: 0;
@@ -96,9 +114,11 @@ upper {
 		opacity: 100;
 	}
 }
-oled {
+
+.animated-text {
     animation: wheelHueColor 28s infinite;
 }
+
 @keyframes wheelHueColor {
     from, to { color: rgb(236,100,75); }
     10%      { color: rgb(219,10,91); }
