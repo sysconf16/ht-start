@@ -35,7 +35,7 @@ html, body {
 .category {
 	display: flex;
 	flex-direction: column;
-	width: 325px;
+	width: 425px;
 }
 
 .bottomsection {
