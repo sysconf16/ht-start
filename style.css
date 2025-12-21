@@ -43,8 +43,12 @@ html, body {
 }
 
 @keyframes blink {
-    25%, 75% { opacity: 0; }
-    50% { opacity: 1; }
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 100;
+	}
 }
 
 hr {
